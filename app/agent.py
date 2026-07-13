@@ -30,8 +30,8 @@ from app.app_utils.vertex_gemini import get_model
 
 root_agent = AdkAgent(
     model=get_model("gemini-2.5-flash"),
-    name="custom_agent",
-    description="[LLM-Optimized Description: Describe clearly what this agent does (e.g. 'Manages user personal to-do lists and platform reminders.') so the host orchestrator can route queries correctly. Avoid generic prefixes like 'Managed GEAP agent.']",
+    name="marine_biologist_expert",
+    description="Provides marine biology resources, oceanographic details, and retrieves official links for the National Oceanic and Atmospheric Administration (NOAA).",
     instruction=system_instruction,
     tools=tools
 )
