@@ -21,8 +21,8 @@
     {
       "type": "text",
       "props": {
-        "text": "[Visit Official NOAA Website](https://www.noaa.gov)",
-        "className": "text-sm font-semibold text-blue-500 hover:underline"
+        "text": "Official Website: www.noaa.gov",
+        "className": "text-sm font-semibold text-slate-500"
       }
     }
   ]
